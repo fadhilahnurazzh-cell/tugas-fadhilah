@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>On The Same Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f6f1eb 0%, #efe7de 100%);
+    font-family: 'Inter', sans-serif;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 40px;
+    animation: fadeUp 1.5s ease forwards;
+    opacity: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    opacity: 0.6;
+}
+
+.line {
+    width: 60px;
+    height: 1px;
+    background-color: #c8bfb6;
+    margin: 20px auto;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 15px;
+    margin: 18px 0;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.spotify-embed {
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+    <h1>On The Same Page</h1>
+    <div class="subtitle">for you, with love</div>
+    <div class="line"></div>
+
+    <p>terimakasih ya sayang udah mau dengerin aku dan sabar sama aku</p>
+
+    <p>maaf kalau cara aku sayang belum selalu sesuai sama yang kamu mau atau tanpa sadar aku bikin kamu capek dan ada kata kataku yang nyinggung itu bukan niat aku sama sekali</p>
+
+    <p>kalau ada yang ganggu pikiran kamu cerita ke aku ya</p>
+
+    <p>aku pengen kita sama sama tumbuh on the same page dan jadi lebih baik bareng</p>
+
+    <p>aku sayang kamu 🤍</p>
+
+    <div class="line"></div>
+
+    <!-- Spotify Embed -->
+    <iframe 
+        class="spotify-embed"
+        data-testid="embed-iframe" 
+        src="https://open.spotify.com/embed/album/558Ysrewk0x3CMG2DozIkF?utm_source=generator" 
+        width="100%" 
+        height="352" 
+        frameborder="0" 
+        allowfullscreen="" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy">
+    </iframe>
+
+    <div class="footer">march 2026</div>
+</div>
+</body>
+</html>
